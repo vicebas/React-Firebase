@@ -1,8 +1,8 @@
 <h1>
   React Starter Kit for Firebase &nbsp; <sup><i>a.k.a. Serverless Edition</i></sup><br>
-  <a href="https://circleci.com/gh/kriasoft/react-firebase-starter"><img src="https://circleci.com/gh/kriasoft/react-firebase-starter.svg?style=svg" alt="Build Status" height="20" /></a>
-  <img src="https://api.dependabot.com/badges/status?host=github&repo=kriasoft/react-firebase-starter" alt="Dependabot" height="20" />
-  <a href="https://opencollective.com/react-firebase-starter"><img src="https://opencollective.com/react-firebase-starter/backers/badge.svg?maxAge=3600" height="20"></a>
+  <a href="https://circleci.com/gh/vicebas/React-Firebase"><img src="https://circleci.com/gh/vicebas/React-Firebase.svg?style=svg" alt="Build Status" height="20" /></a>
+  <img src="https://api.dependabot.com/badges/status?host=github&repo=vicebas/React-Firebase" alt="Dependabot" height="20" />
+  <a href="https://opencollective.com/React-Firebase"><img src="https://opencollective.com/React-Firebase/backers/badge.svg?maxAge=3600" height="20"></a>
   <a href="https://twitter.com/ReactStarter"><img src="https://img.shields.io/twitter/follow/ReactStarter.svg?style=social&amp;label=Follow&amp;maxAge=3600" alt="Twitter" height="20"></a>
   <a href="https://discord.gg/2nKEnKq"><img src="https://img.shields.io/badge/chat-Discord-green.svg?style=social&amp;maxAge=3600" height="20"></a>
 </h1>
@@ -13,13 +13,13 @@ provided by <a href="https://cloud.google.com/">Google Cloud</a> (Cloud SQL, Clo
 hosting, and file storage). It allows you to save time and build upon a solid foundation and
 design patterns.
 
-<p align="center"><strong>View</strong> <a href="https://firebase.reactstarter.com">online demo</a> (<a href="https://firebase.reactstarter.com/graphql">API</a>, <a href="https://firebase.reactstarter.com/graphql/model">data model</a>) &nbsp;|&nbsp; <strong>Follow us</strong> on <a href="https://twitter.com/ReactStarter">Twitter</a> &nbsp;|&nbsp; <strong>Get FREE support</strong> on <a href="https://discord.gg/2nKEnKq">Discord</a> &nbsp;|&nbsp; <a href="https://angel.co/company/kriasoft/jobs/"><strong>We're hiring!</strong></a></p>
+<p align="center"><strong>View</strong> <a href="https://firebase.reactstarter.com">online demo</a> (<a href="https://firebase.reactstarter.com/graphql">API</a>, <a href="https://firebase.reactstarter.com/graphql/model">data model</a>) &nbsp;|&nbsp; <strong>Follow us</strong> on <a href="https://twitter.com/ReactStarter">Twitter</a> &nbsp;|&nbsp; <strong>Get FREE support</strong> on <a href="https://discord.gg/2nKEnKq">Discord</a> &nbsp;|&nbsp; <a href="https://angel.co/company/vicebas/jobs/"><strong>We're hiring!</strong></a></p>
 
 <a href="https://reactstarter.com/s/1"><img src="https://reactstarter.com/s/1.png" height="60" /></a>&nbsp;&nbsp;<a href="https://reactstarter.com/s/2"><img src="https://reactstarter.com/s/2.png" height="60" /></a>&nbsp;&nbsp;<a href="https://reactstarter.com/s/3"><img src="https://reactstarter.com/s/3.png" height="60" /></a>
 
 ---
 
-This project was bootstrapped with [React Starter Kit for Firebase][rfs] by [Kriasoft][kriasoft].
+This project was bootstrapped with [React Starter Kit for Firebase][rfs] by [vicebas][vicebas].
 
 ### Tech Stack
 
@@ -95,7 +95,7 @@ Just clone the repo, update environment variables in `.env` and/or `.env.local` 
 hacking:
 
 ```bash
-$ git clone https://github.com/kriasoft/react-firebase-starter.git MyApp
+$ git clone https://github.com/vicebas/React-Firebase.git MyApp
 $ cd MyApp
 $ yarn setup                       # Installs dependencies; creates PostgreSQL database
 $ yarn start                       # Compile the app and opens it in a browser with "live reload"
@@ -158,7 +158,7 @@ $ yarn deploy-test                 # Deploy the app to TEST environment
 $ yarn deploy-prod                 # Deploy the app to PROD environment
 ```
 
-For more information refer to the [Deployment](https://github.com/kriasoft/react-firebase-starter/wiki/deployment)
+For more information refer to the [Deployment](https://github.com/vicebas/react-firebase/wiki/deployment)
 guide in the project's Wiki.
 
 ### How to Update
@@ -167,7 +167,7 @@ If you keep the original Git history after cloning this repo, you can always fet
 the recent updates back into your project by running:
 
 ```bash
-$ git remote add rsk https://github.com/kriasoft/react-firebase-starter.git
+$ git remote add rsk https://github.com/vicebas/react-firebase.git
 $ git checkout master
 $ git fetch rsk
 $ git merge rsk/master
@@ -185,12 +185,12 @@ up to date with the base repository._
 
 ### How to Contribute
 
-Anyone and everyone is welcome to [contribute](https://github.com/kriasoft/react-firebase-starter/wiki/Contributing) to this project. The best way to
-start is by checking our [open issues](https://github.com/kriasoft/react-firebase-starter/issues),
-[submit a new issues](https://github.com/kriasoft/react-firebase-starter/issues/new?labels=bug) or
-[feature request](https://github.com/kriasoft/react-firebase-starter/issues/new?labels=enhancement),
+Anyone and everyone is welcome to [contribute](https://github.com/vicebas/React-Firebase/wiki/Contributing) to this project. The best way to
+start is by checking our [open issues](https://github.com/vicebas/React-Firebase/issues),
+[submit a new issues](https://github.com/vicebas/React-Firebase/issues/new?labels=bug) or
+[feature request](https://github.com/vicebas/React-Firebase/issues/new?labels=enhancement),
 participate in discussions, upvote or downvote the issues you like or dislike, send [pull
-requests](https://github.com/kriasoft/react-firebase-starter/wiki/Contributing#pull-requests).
+requests](https://github.com/vicebas/React-Firebase/wiki/Contributing#pull-requests).
 
 ### Learn React.js and ES6
 
@@ -201,26 +201,26 @@ requests](https://github.com/kriasoft/react-firebase-starter/wiki/Contributing#p
 
 ### Related Projects
 
-- [React App SDK](https://github.com/kriasoft/react-app) — Create React App modification that
+- [React App SDK](https://github.com/vicebas/react-app) — Create React App modification that
   unlocks server-side rendering
-- [React Starter Kit](https://github.com/kriasoft/react-starter-kit) — Boilerplate and tooling for
+- [React Starter Kit](https://github.com/vicebas/react-starter-kit) — Boilerplate and tooling for
   building isomorphic web apps with React and Relay
-- [Node.js API Starter Kit](https://github.com/kriasoft/nodejs-api-starter) — Boilerplate and
+- [Node.js API Starter Kit](https://github.com/vicebas/nodejs-api-starter) — Boilerplate and
   tooling for building data APIs with Docker, Node.js and GraphQL
 
 ### License
 
-Copyright © 2015-present Kriasoft. This source code is licensed under the MIT license found in
-the [LICENSE.txt](https://github.com/kriasoft/react-firebase-starter/blob/master/LICENSE.txt) file.
+Copyright © 2015-present vicebas. This source code is licensed under the MIT license found in
+the [LICENSE.txt](https://github.com/vicebas/React-Firebase/blob/master/LICENSE.txt) file.
 
 ---
 
 Made with ♥ by Konstantin Tarkus ([@koistya](https://twitter.com/koistya), [blog](https://medium.com/@tarkus))
-and [contributors](https://github.com/kriasoft/react-firebase-starter/graphs/contributors) :wave:
+and [contributors](https://github.com/vicebas/React-Firebase/graphs/contributors) :wave:
 [Get in touch!](https://twitter.com/messages/compose?recipient_id=16394396)
 
-[rfs]: https://github.com/kriasoft/react-firebase-starter
-[kriasoft]: https://github.com/kriasoft
+[rfs]: https://github.com/vicebas/React-Firebase
+[vicebas]: https://github.com/vicebas
 [telegram]: https://t.me/ReactStarter
 [cra]: https://github.com/facebook/create-react-app
 [cradocs]: https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md
@@ -241,7 +241,7 @@ and [contributors](https://github.com/kriasoft/react-firebase-starter/graphs/con
 [gcp]: https://cloud.google.com/
 [firebase]: https://firebase.google.com/
 [fbdocs]: https://firebase.google.com/docs/web
-[router]: https://github.com/kriasoft/universal-router
+[router]: https://github.com/vicebas/universal-router
 [history]: https://github.com/ReactTraining/history
 [nodejs]: https://nodejs.org/
 [yarn]: https://yarnpkg.com/
